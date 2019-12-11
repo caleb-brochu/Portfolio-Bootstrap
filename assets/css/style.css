@@ -24,6 +24,7 @@ html body
 
 .wrapper
 {
+    width: 100%;
     background: #ffffff;
     border-bottom:#cccccc 1px solid;
 }
@@ -45,12 +46,14 @@ html body
     }
   }
 
-
+.jumbotron{
+    margin-right:0;
+}
 
 .jumbobackground
 {
     background-color: #ffffff;
-    padding: 0;
+    margin-right: 0;
     color: #777777;
     font-size: 18pt;
     line-height: 20pt;
@@ -146,11 +149,10 @@ footer
     padding: 50px;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 25px;
     width: 100%;
     background: #666666;
     border-top: #4aaaa5 8px solid;
-    z-index: 2;
 }
 
 #namefield
