@@ -46,9 +46,7 @@ html body
     }
   }
 
-.jumbotron{
-    margin-right:0;
-}
+
 
 .jumbobackground
 {
@@ -63,6 +61,10 @@ html body
     box-sizing: border-box;
 }
 
+.container-fluid
+{
+    margin-right:auto;
+}
 .nav-link
 {
     padding: 0;
@@ -94,12 +96,7 @@ html body
 
 #body_content
 {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    bottom: -80px;
-    padding: 20px;
+    text-align: top;
     background: #ffffff;
     max-width: 960px;
     height: 750px;
@@ -178,7 +175,7 @@ footer
 #messagefield
 {
     width: 100%;
-    height: 60%;
+    height: 250px;;
     padding: 0px 20px;
     line-height: 24pt;
     font-family: Arial, Helvetica, sans-serif;
