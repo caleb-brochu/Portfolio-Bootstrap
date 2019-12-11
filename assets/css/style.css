@@ -22,6 +22,12 @@ html body
     margin: 0;
 }
 
+.wrapper
+{
+    background: #ffffff;
+    border-bottom:#cccccc 1px solid;
+}
+
 #headerblock
 { 
     top: 0;
@@ -29,9 +35,17 @@ html body
     max-width: 960px;
     margin-left:auto;
     margin-right: auto;
-    background: #ffffff;
-    border-bottom:#cccccc 1px solid;
+
 }
+
+@media screen and (max-width: 768px) {
+    #logo {
+     width: 100%;
+     text-align: center;
+    }
+  }
+
+
 
 .jumbobackground
 {
@@ -41,31 +55,27 @@ html body
     font-size: 18pt;
     line-height: 20pt;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 960px ;
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.navsettings
+.nav-link
 {
-    background-color: #ffffff;
     padding: 0;
     color: #777777;
     font-size: 18pt;
     line-height: 20pt;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 960px ;
-    margin-left: auto;
-    margin-right: auto;
     box-sizing: border-box;
 }
 
-.links 
+.links li
 {
-    float: right;
+   display: inline-block; 
+   padding-left: 5px;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 
 #logo
@@ -74,7 +84,7 @@ html body
     background: #4aaaa5;
     color: #ffffff;
     margin: 0;
-    padding:20px;
+    padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
 }
