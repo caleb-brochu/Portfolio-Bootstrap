@@ -46,25 +46,37 @@ html body
   }
 
 @media screen and (max-width: 768px) {
-    .container-settings {
-        padding: 0;
-        margin-right: 0;
-        margin-left: 0;
-    }
-  }
-
-@media screen and (max-width: 768px) {
      .offset-md-2{
         margin: 0;
-
     }
   }
   
 @media screen and (max-width: 768px) {
-    .img-responsive{
+    .img-profile{
       width: 100%;
-
   }
+}
+
+.img-profile 
+{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.img-responsive 
+{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.img-responsive > img {
+ 
+
+    width: 100%;
+
 }
 
 .jumbobackground
@@ -96,12 +108,10 @@ html body
    display: inline-block; 
    padding-left: 5px;
    padding-top: 20px;
- 
 }
 
 #logo
 {
-
     background: #4aaaa5;
     color: #ffffff;
     margin: 0;
@@ -109,7 +119,6 @@ html body
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
 }
-
 
 
 #aboutmetitle
@@ -148,7 +157,7 @@ footer
     padding: 50px;
     left: 0;
     bottom: 0;
-    height: 25px;
+    height: 20px;
     width: 100%;
     background: #666666;
     border-top: #4aaaa5 8px solid;
@@ -200,35 +209,21 @@ footer
 }
 
 
-.block
-{
-    height: 300px;
-    width: 300px;
-    margin: 10px 10px 10px 0px;
-}
-
-.projects
-{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-
-}
-
-.banner
-{
+.block {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
     position: relative;
+   
+  }
+  
+.block .banner {
     background: #4aaaa5;
-    color: #ffffff;
+    bottom: 30px;
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
     text-align: center;
-    width: 300px;
-    height: 50px;
-    line-height: 22pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-    z-index: 1;
-    top: -70;
-
-    
-}
+    width: 100%;
+ }
 
