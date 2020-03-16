@@ -288,3 +288,17 @@ input{
   #submit:hover {
     background-color: rgb(10, 10, 255);
   }
+  .carousel-inner > .item > img {
+    margin: 0 auto;
+  }
+
+  .project_links{
+      align-items: center;
+      margin: 20px auto;
+  }
+  
+  .carousel img {
+
+    margin: auto;
+
+}
